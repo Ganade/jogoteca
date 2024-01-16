@@ -54,6 +54,7 @@ for tabela_nome in TABLES:
       else:
             print('OK')
 
+
 # inserindo usuarios
 usuario_sql = 'INSERT INTO usuarios (nome, nickname, senha) VALUES (%s, %s, %s)'
 usuarios = [
